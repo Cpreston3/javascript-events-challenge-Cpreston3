@@ -2,8 +2,8 @@ const firstPara = document.getElementById("p1");
 //console.log(firstParagraph);
 //tier 1.1 1.2
 firstPara.style.color = "green";
-firstPara.style.fontSize = "20"
-    "px";
+firstPara.style.fontSize = "20px";
+
 //react to keyboard events
 
 const secondPara = document.getElementById("p2");
@@ -17,20 +17,22 @@ document.addEventListener("keyup", event => {
         secondPara.style.background = "";
     }
 });
-//tier "find and replace" using button
+//tier 2 "find and replace" using button
 
 
 const button = document.querySelector("button");
 const thirdPara =  document.getElementById("p3");
     button.addEventListener("click", () => {
     thirdPara.innerText = "Wizard for Life";
+
        });
- //tier selecting one word in Dom
+ //tier 2 find, replace and highlight one word
 
- const ParaTwo = document.querySelector("p2");
- document.documentElement("ParaTwo");
+document.getElementById("target").innerText  = "Casey";{
+    target.style.background = "yellow";
+}
 
-
+// tier 2 shuffle words in random order
 
 
 
