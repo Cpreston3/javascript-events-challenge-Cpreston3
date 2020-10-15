@@ -8,28 +8,28 @@ firstPara.style.fontSize = "20px";
 
 const secondPara = document.getElementById("p2");
 document.addEventListener("keydown", event => {
-    if (event.key === "m") {
-        secondPara.style.background = "yellow";
-    }
+  if (event.key === "m") {
+    secondPara.style.background = "yellow";
+  }
 });
 document.addEventListener("keyup", event => {
-    if (event.key === "m") {
-        secondPara.style.background = "";
-    }
+  if (event.key === "m") {
+    secondPara.style.background = "";
+  }
 });
 //tier 2 "find and replace" using button
 
-
 const button = document.querySelector("button");
-const thirdPara =  document.getElementById("p3");
-    button.addEventListener("click", () => {
-    thirdPara.innerText = "Wizard for Life";
+const thirdPara = document.getElementById("p3");
+button.addEventListener("click", () => {
+  thirdPara.innerText = "Wizard for Life";
 
-       });
- //tier 2 find, replace and highlight one word
+});
+//tier 2 find, replace and highlight one word
 
-document.getElementById("target").innerText  = "Casey";{
-    target.style.background = "yellow";
+document.getElementById("target").innerText = "Casey";
+{
+  target.style.background = "yellow";
 }
 
 // tier 2 shuffle words in random order
